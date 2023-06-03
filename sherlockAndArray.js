@@ -22,7 +22,7 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// this file returns a string 'YES' if there exists in a given array of integers an index with a sum of all integers to its left equal to the sum of all integers to its right
+// this function returns a string 'YES' if there exists in a given array of integers an index with a sum of all integers to its left equal to the sum of all integers to its right
 function balancedSums(arr) {
     let n = arr.length;
     if (n == 1) {
