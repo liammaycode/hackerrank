@@ -1,6 +1,6 @@
-This function has three parameters: an integer array s, an integer representing a birth day d, and an integer representing birth month m.
-This function determines how many subarrays there are of length m whose values sum is equal to d.
-This function returns the number of subarrays that fit these criteria in O(n^2) time.
+// This function has three parameters: an integer array s, an integer representing a birth day d, and an integer representing birth month m.
+// This function determines how many subarrays there are of length m whose values sum is equal to d.
+// This function returns the number of subarrays that fit these criteria in O(n^2) time.
 
 function birthday(s, d, m) {
     let n = s.length;
