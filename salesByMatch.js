@@ -6,7 +6,6 @@ function sockMerchant(n, ar) {
     let pairs = 0;
     let freq = new Array(100 + 1).fill(0);
     for (let i = 0; i < n; i++) {
-        // freq[ar[i]]++;
         if (++freq[ar[i]] % 2 == 0) {
             pairs++;
         }
